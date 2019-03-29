@@ -1,0 +1,34 @@
+ #变量作用域：
+ LEGB原则：
+ -L（local）:局部作用域
+ -E(Enclosing function locale) 外部嵌套函数作用域
+ -G(Global module)函数定义所在的模块作用域
+ -B(Buildin):python内置魔抗的作用域
+
+ eval()函数
+ eval(string_code,globals=None,locals = None)
+ exec()函数与eval()函数功能相似，不返回结果
+
+ 递归函数
+ - 函数直接或者间接调用自己
+ - 优点：简洁，理解容易
+ - 缺点：对递归深度有限制，消耗资源大。
+ - python对递归深度有限制，超过限制报错
+ - 在写递归程序的时候，考虑递归次数
+
+ #内置数据结构（变量类型）
+ - list
+ - set
+ - dict
+ - tuple
+##list(列表)
+- 一组由顺序的数据组合
+- 创建列表
+    - 空列表
+
+ 汉诺塔问题：
+
+ 传值与传地址的区别：
+传值不改变外部的值
+传地址改变
+
